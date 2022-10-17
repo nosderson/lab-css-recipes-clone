@@ -1,11 +1,19 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins');
-
 body, html {
     height: 100%;
-    margin: 0;
-    font-family: Poppins;
 }
 
+/*Some necessary adjustments*/
+h1,
+body,
+html,
+main {
+  margin: 0;
+}
+/*Import the font and set the default size*/
+html {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+}
 /* The hero image */
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
@@ -57,7 +65,7 @@ ul > li::before {
  }
 
  main h2 {
-    width: 72%;
+    width: 75%;
     margin: auto;
  }
 
